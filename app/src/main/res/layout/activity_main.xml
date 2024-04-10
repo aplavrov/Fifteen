@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/colorBack">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp">
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        app:srcCompat="@drawable/cap"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="140dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/buttons"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="23sp"
+        android:textColor="@color/colorButtonText"
+        android:text="Новая игра" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_width="200dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/hint" />
+
+</RelativeLayout>
